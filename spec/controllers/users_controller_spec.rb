@@ -1,4 +1,4 @@
-require 'specgit _helper'
+require 'spec_helper'
 
 RSpec.describe UsersController, type: :controller do
 
