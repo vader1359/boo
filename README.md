@@ -13,9 +13,9 @@ URL: **Insert your Heroku URL here**
 The following **required** functionality is complete:
 
 
-* [ ] User can sign up by providing their email, password, and name. (Devise)
+* [x] User can sign up by providing their email, password, and name. (Devise)
 * [ ] Add video background behind login page
-* [ ] User can login using an email and password. (Devise)
+* [x] User can login using an email and password. (Devise)
 
 * [ ] After logging in, the user is taken to a page that has a list of UI/UX mobile design post displayed as grid.
   * [ ] Use Behance API for the source of images 
