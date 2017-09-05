@@ -18,10 +18,12 @@
 @import "branding";
 @import "bulma_variables";
 @import "bulma";
+@import "my_elements";
 
 body, html {
   height: 100%;
   z-index: -2;
+  font-family: "Avenir"
 }
 
 .navbar {
@@ -79,6 +81,8 @@ body, html {
   .page-content {
     height: 100%;
     margin-top: 5%;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
