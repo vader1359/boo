@@ -9,18 +9,24 @@
 </head>
 
 <body>
-  <nav class="navbar is-marginless is-paddingless is-gapless">
+  <nav class="navbar">
     <div class="navbar-brand">
       <a class="navbar-item" href="http://bulma.io">
         <%= image_tag "dou_logo.png", alt: "logo", class: "logo"%>
       </a>
       
-      
-      
-      
     </div>
+    
+    <div class="navbar-menu">
+      
+      <div class="navbar-end">
+        <%= image_tag "setting.png" %>
+      </div>
+    </div>
+    
   </nav>
-  <div class="all-content columns is-centered">
+  <div class="all-content columns">
+    <!-- The controller -->
     <div class="content-controller column is-3">
       <div class="controller-inside">
         <%= image_tag "search.png" %>
@@ -32,11 +38,18 @@
       </div>
     </div>
     
+    <!-- The page content -->
+    <div class="page-content column is-12">
+      <%=yield %>
+    </div>
+    
+  </div>
+  <div class="page-content column is-12">
+    <%=yield %>
   </div>
   
   
   
-  <%= yield %>
   
   
 </body>
