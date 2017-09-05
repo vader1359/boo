@@ -9,20 +9,35 @@
 </head>
 
 <body>
-    <nav style="margin-bottom: 150px;" class="navbar">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="http://bulma.io">
-            <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
-          </a>
+  <nav class="navbar is-marginless is-paddingless is-gapless">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="http://bulma.io">
+        <%= image_tag "dou_logo.png", alt: "logo", class: "logo"%>
+      </a>
       
-          <div class="navbar-burger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </nav>
-
-    <%= yield %>
+      
+      
+      
+    </div>
+  </nav>
+  <div class="all-content columns is-centered">
+    <div class="content-controller column is-3">
+      <div class="controller-inside">
+        <%= image_tag "search.png" %>
+        <div class="mini-divine">|</div>
+        <%= image_tag "default.png" %>
+        <%= image_tag "heart.png" %>
+        <%= image_tag "view.png" %>
+        <%= image_tag "comment.png" %>
+      </div>
+    </div>
+    
+  </div>
+  
+  
+  
+  <%= yield %>
+  
+  
 </body>
 </html>

@@ -5,5 +5,9 @@ Rails.application.routes.draw do
 
   root "users#test"
 
+  resources :users do
+    get 'hello', on: :collection
+  end
+
   
 end

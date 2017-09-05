@@ -18,3 +18,58 @@
 @import "branding";
 @import "bulma_variables";
 @import "bulma";
+
+body, html {
+  height: 100%;
+  z-index: -2;
+}
+
+.navbar {
+  z-index: 0;
+  background: $blue-dark-bg;
+  border-bottom: 3px solid $blue_d;
+  min-height: 56px;
+  height: 8%;
+  align-items: center;
+  .logo {
+    margin-left :20px;
+    height: 100%;
+    width: auto;
+    
+  }
+}
+
+.all-content {
+  border: 10px;
+  height: 100%;
+  background: $blue-bg;
+  z-index: 1;
+
+  .content-controller {
+    height: 5%;
+    min-height: 50px;
+    background:$blue-dark-bg;
+    max-width: 373px;
+    min-width: 300px;
+    border: 3px solid $blue_d;
+    border-top: $blue-dark-bg;
+    z-index: 2;
+    margin-top: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .controller-inside {
+      display: flex;
+      width: 75%;
+      min-width: 225px;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
+
+.mini-divine {
+  color: $blue_d;
+}
+
+

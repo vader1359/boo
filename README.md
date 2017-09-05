@@ -25,6 +25,7 @@ The following **required** functionality is complete:
   * [ ] User can filter good/bad/professional comments
   * [ ] User can hover on part of the post image to see the comments on that part particularly
   * [ ] User can click on a part of the post image to start comment on that part
+  * [ ] Use magnifier.js to zoom the position of divp
 * [ ] On the right there is a list share feelings of other about the design
   * [ ] User can start add new share from a form on the top of this part
   * [ ] User can scroll to see other's comments on it
