@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-09-06T15:26:50+07:00">2017-09-06T15:26:50+07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-09-06T17:54:08+07:00">2017-09-06T17:54:08+07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.11
+         1.08
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>29</b> files in total.
-    <b>107</b> relevant lines. 
-    <span class="green"><b>107</b> lines covered</span> and
+    <b>112</b> relevant lines. 
+    <span class="green"><b>112</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -111,7 +111,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#d854b03c261ca61c7b6e35e1eb6143e7bde9ccdf" class="src_link" title="app/models/design.rb">app/models/design.rb</a></td>
+        <td class="strong"><a href="#58811e564cdde4416dca6503f15409c9b28e09a4" class="src_link" title="app/models/like.rb">app/models/like.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>3</td>
         <td>2</td>
@@ -273,11 +273,11 @@
       <tr>
         <td class="strong"><a href="#abe71034487cb9fa82a8e0af566d7b4295c171d8" class="src_link" title="spec/factories/comments.rb">spec/factories/comments.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>9</td>
+        <td>6</td>
         <td>6</td>
         <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0.0</td>
+        <td>1.0</td>
       </tr>
       
       <tr>
@@ -321,13 +321,13 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#9f456f25f151de8e9a4d131b3c5cb83a6076e251" class="src_link" title="spec/models/design_spec.rb">spec/models/design_spec.rb</a></td>
+        <td class="strong"><a href="#42b7b8a65500be303b170d50be4022499c9b1158" class="src_link" title="spec/models/like_spec.rb">spec/models/like_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>17</td>
-        <td>8</td>
-        <td>8</td>
+        <td>7</td>
+        <td>7</td>
         <td>0</td>
-        <td>1.5</td>
+        <td>1.4</td>
       </tr>
       
       <tr>
@@ -337,7 +337,7 @@
         <td>23</td>
         <td>23</td>
         <td>0</td>
-        <td>1.3</td>
+        <td>1.2</td>
       </tr>
       
     </tbody>
@@ -548,9 +548,9 @@
 </div>
 
       
-        <div class="source_table" id="d854b03c261ca61c7b6e35e1eb6143e7bde9ccdf">
+        <div class="source_table" id="58811e564cdde4416dca6503f15409c9b28e09a4">
   <div class="header">
-    <h3>app/models/design.rb</h3>
+    <h3>app/models/like.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
       <b>2</b> relevant lines. 
@@ -565,7 +565,7 @@
         <li class="covered" data-hits="1" data-linenumber="1">
           <span class="hits">1</span>
           
-          <code class="ruby">class Design &lt; ApplicationRecord</code>
+          <code class="ruby">class Like &lt; ApplicationRecord</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="2">
@@ -3551,8 +3551,8 @@
     <h3>spec/factories/comments.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>0</b> relevant lines. 
-      <span class="green"><b>0</b> lines covered</span> and
+      <b>6</b> relevant lines. 
+      <span class="green"><b>6</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -3560,40 +3560,58 @@
   <pre>
     <ol>
       
-        <li class="never" data-hits="" data-linenumber="1">
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"># FactoryGirl.define do</code>
+          <code class="ruby">FactoryGirl.define do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="2">
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#   factory :comment do</code>
+          <code class="ruby">  factory :comment do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="3">
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#     user nil</code>
+          <code class="ruby">    user nil</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#     body &quot;MyText&quot;</code>
+          <code class="ruby">    body {&quot;This is such a great design&quot;}</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="5">
+        <li class="covered" data-hits="1" data-linenumber="5">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#   end</code>
+          <code class="ruby">    parts {Array(1..12)}</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="covered" data-hits="1" data-linenumber="6">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    comment_type {:good}</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="7">
           
           
-          <code class="ruby"># end</code>
+          <code class="ruby"></code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="8">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="9">
+          
+          
+          <code class="ruby">end</code>
         </li>
       
     </ol>
@@ -3827,13 +3845,13 @@
 </div>
 
       
-        <div class="source_table" id="9f456f25f151de8e9a4d131b3c5cb83a6076e251">
+        <div class="source_table" id="42b7b8a65500be303b170d50be4022499c9b1158">
   <div class="header">
-    <h3>spec/models/design_spec.rb</h3>
+    <h3>spec/models/like_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>8</b> relevant lines. 
-      <span class="green"><b>8</b> lines covered</span> and
+      <b>7</b> relevant lines. 
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -3856,25 +3874,25 @@
         <li class="never" data-hits="" data-linenumber="3">
           
           
-          <code class="ruby"># Validate test</code>
+          <code class="ruby"># Validation test</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="4">
           <span class="hits">1</span>
           
-          <code class="ruby">RSpec.describe Design, type: :model do</code>
+          <code class="ruby">RSpec.describe Like, type: :model do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="5">
           <span class="hits">1</span>
           
-          <code class="ruby">  describe &quot;test the validation when create a Design and save it to database&quot; do</code>
+          <code class="ruby">  describe &quot;Test the validation when create and save a Like to database&quot; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="6">
           <span class="hits">1</span>
           
-          <code class="ruby">    context &quot;Calling Design.create will do&quot; do </code>
+          <code class="ruby">    context &quot;do Like.create given some attributes&quot; do</code>
         </li>
       
         <li class="covered" data-hits="2" data-linenumber="7">
@@ -3886,37 +3904,37 @@
         <li class="covered" data-hits="2" data-linenumber="8">
           <span class="hits">2</span>
           
-          <code class="ruby">      it {should have_many(:comments)}</code>
+          <code class="ruby">      it {should validate_presence_of(:item_id)}</code>
         </li>
       
         <li class="covered" data-hits="2" data-linenumber="9">
           <span class="hits">2</span>
           
-          <code class="ruby">      it {should have_many(:likes)}</code>
+          <code class="ruby">      it {should validate_presence_of(:item_type)}</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="10">
-          <span class="hits">2</span>
-          
-          <code class="ruby">      it {should have_many(:views)}</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="11">
+        <li class="never" data-hits="" data-linenumber="10">
           
           
           <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="12">
+        <li class="never" data-hits="" data-linenumber="11">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="13">
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby">end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="13">
+          
+          
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="14">
@@ -3940,7 +3958,7 @@
         <li class="never" data-hits="" data-linenumber="17">
           
           
-          <code class="ruby"># Instance methods test</code>
+          <code class="ruby"># Instance method test</code>
         </li>
       
     </ol>
@@ -4208,14 +4226,14 @@
           <code class="ruby">    config.around(:each) do |example|</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="42">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="3" data-linenumber="42">
+          <span class="hits">3</span>
           
           <code class="ruby">      DatabaseCleaner.cleaning do</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="43">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="3" data-linenumber="43">
+          <span class="hits">3</span>
           
           <code class="ruby">        example.run</code>
         </li>
