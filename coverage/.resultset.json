@@ -1,33 +1,26 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/controllers/users_controller_spec.rb": [
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/controllers/home_controller_spec.rb": [
         1,
         null,
         1,
         null,
-        null
-      ],
-      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/helpers/users_helper_spec.rb": [
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         1,
         1,
+        1,
+        1,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/rails_helper.rb": [
         null,
         1,
+        1,
+        1,
+        null,
         1,
         1,
         null,
@@ -107,6 +100,10 @@
         null,
         null,
         null,
+        null,
+        1,
+        1,
+        1,
         null,
         null,
         null
@@ -529,10 +526,19 @@
         1,
         1,
         null,
+        1,
+        1,
+        null,
+        null,
         null,
         1,
         null,
         null,
+        null,
+        null,
+        null,
+        1,
+        1,
         null
       ],
       "/Users/Vader1359/myProjects/web/ruby-final-project/boo/app/models/user.rb": [
@@ -541,6 +547,7 @@
         null,
         1,
         null,
+        null,
         null
       ],
       "/Users/Vader1359/myProjects/web/ruby-final-project/boo/app/models/application_record.rb": [
@@ -548,7 +555,50 @@
         1,
         null
       ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/factories/comments.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/factories/designs.rb": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/factories/likes.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/factories/views.rb": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/Vader1359/myProjects/web/ruby-final-project/boo/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/app/helpers/home_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/app/helpers/image_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/app/helpers/images_helper.rb": [
         1,
         null
       ],
@@ -556,14 +606,231 @@
         1,
         null
       ],
-      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/models/user_spec.rb": [
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/app/controllers/home_controller.rb": [
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/controllers/users_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/app/controllers/users_controller.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/helpers/home_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/helpers/users_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/models/comment_spec.rb": [
         1,
         null,
         1,
         1,
         null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/app/models/comment.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/models/design_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/app/models/design.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/models/like_spec.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/app/models/like.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/models/user_spec.rb": [
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/models/view_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/app/models/view.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/views/home/index.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/views/images/edit.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/views/images/index.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/views/images/new.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/Vader1359/myProjects/web/ruby-final-project/boo/spec/views/images/show.html.erb_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null
       ]
     },
-    "timestamp": 1504005398
+    "timestamp": 1504677747
   }
 }

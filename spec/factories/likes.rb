@@ -1,6 +1,7 @@
 FactoryGirl.define do
   factory :like do
-    user nil
-    item_id 1
+    user_id nil
+    item_id nil
   end
+  
 end

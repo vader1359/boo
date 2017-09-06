@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(version: 20170906021214) do
     t.string "image"
     t.index ["user_id"], name: "index_designs_on_user_id"
   end
+  
 
   create_table "likes", force: :cascade do |t|
     t.bigint "user_id"

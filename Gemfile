@@ -52,7 +52,7 @@ group :development, :test do
   gem 'guard-rspec', require: false
   gem 'circleci'
   gem 'simplecov', :require => false, :group => :test
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', :require => false
   
 end
 

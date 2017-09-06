@@ -1,5 +1,5 @@
-FactoryGirl.define do
-  factory :design do
-    user nil
-  end
-end
+# FactoryGirl.define do
+#   factory :design do
+#     user nil
+#   end
+# end
