@@ -1,5 +1,12 @@
 require 'rails_helper'
 
+# Validation test
 RSpec.describe User, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe "self.create" do
+  end
 end
+
+# Relationship test
+
+# Instance method test
+
