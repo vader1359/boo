@@ -40,6 +40,7 @@ gem 'carrierwave', '~> 1.0'
 gem 'carrierwave-aws'
 gem 'devise'
 gem 'behance'
+gem 'kaminari'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -51,7 +52,8 @@ group :development, :test do
   gem 'guard-rspec', require: false
   gem 'circleci'
   gem 'simplecov', :require => false, :group => :test
-  gem 'kaminari'
+  gem 'factory_girl_rails'
+  
 end
 
 group :development do

@@ -10,22 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170831082108) do
+ActiveRecord::Schema.define(version: 20170906013228) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "images", force: :cascade do |t|
-    t.string "image"
+  create_table "comments", force: :cascade do |t|
+    t.bigint "user_id"
+    t.text "body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_comments_on_user_id"
   end
 
-  create_table "pictures", force: :cascade do |t|
-    t.string "picture_url"
+  create_table "likes", force: :cascade do |t|
+    t.bigint "user_id"
+    t.integer "item_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.json "images"
+    t.index ["user_id"], name: "index_likes_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -43,9 +46,18 @@ ActiveRecord::Schema.define(version: 20170831082108) do
     t.datetime "last_sign_in_at"
     t.inet "current_sign_in_ip"
     t.inet "last_sign_in_ip"
-    t.string "avatar"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  create_table "views", force: :cascade do |t|
+    t.bigint "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_views_on_user_id"
+  end
+
+  add_foreign_key "comments", "users"
+  add_foreign_key "likes", "users"
+  add_foreign_key "views", "users"
 end

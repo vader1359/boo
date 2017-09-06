@@ -98,6 +98,11 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.6.1)
     execjs (2.7.0)
+    factory_girl (4.8.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.8.0)
+      factory_girl (~> 4.8.0)
+      railties (>= 3.0.0)
     faraday (0.8.11)
       multipart-post (~> 1.2.0)
     ffi (1.9.18)
@@ -315,6 +320,7 @@ DEPENDENCIES
   carrierwave-aws
   circleci
   devise
+  factory_girl_rails
   guard-rspec
   http
   jbuilder (~> 2.5)
