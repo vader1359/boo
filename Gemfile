@@ -53,6 +53,8 @@ group :development, :test do
   gem 'circleci'
   gem 'simplecov', :require => false, :group => :test
   gem 'factory_girl_rails', :require => false
+  gem 'shoulda-matchers', git: 'https://github.com/thoughtbot/shoulda-matchers.git', branch: 'rails-5'
+  gem 'database_cleaner'
   
 end
 
