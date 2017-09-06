@@ -1,12 +1,11 @@
 require 'rails_helper'
 
-# Validation test
-# THE Validation test is handled by Devise libirary 
-
-# ==========
-
-# Association test
 RSpec.describe User, type: :model do
+  
+  # Validation test
+  # THE Validation test is handled by Devise libirary 
+
+  # Association test
   describe "test the association between User and other models" do
     context "Add a relationship to User" do
       it {should have_many(:designs).dependent(:destroy)}
@@ -15,7 +14,9 @@ RSpec.describe User, type: :model do
       it {should have_many(:views).dependent(:destroy)}
     end
   end
+  
+  # Instance method test
 end
 
-# Instance method test
+
 
