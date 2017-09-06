@@ -10,3 +10,7 @@
 * route tests your routes
 * set_flash makes assertions on the flash hash.
 * use_before_action tests that a before_action callback is defined in your controller. (Aliased as #use_before_filter.)
+
+
+**WHAT I WILL DO NOW**
+* Handle the Nav-bar in HomeScreen
