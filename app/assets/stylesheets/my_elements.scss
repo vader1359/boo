@@ -1,10 +1,13 @@
 @import "branding";
 
+
 .my-card {
   min-width: 315px;
   max-width: 400px;
+  margin-right: 10px;
   width: auto;
   padding-bottom: 0px;
+  margin-bottom: 20px;
   .my-card-content {
     padding: 15px;
     display: flex;

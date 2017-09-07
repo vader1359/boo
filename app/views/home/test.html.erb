@@ -1,3 +1,5 @@
-<div class="columns">
-  <%= render "design" %>
+<div class="all-cards columns is-centered column is-11">
+  <% @design_list.each do |design| %>
+    <%= render "design", design: design %>
+  <% end %>
 </div>

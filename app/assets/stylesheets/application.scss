@@ -70,6 +70,7 @@ body, html {
   z-index: 1;
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
 
   .content-controller {
     margin-left: auto;
@@ -103,6 +104,13 @@ body, html {
     margin-top: 5%;
     padding-left: 40px;
     padding-right: 40px;
+    .all-cards {
+      height:100%; 
+      flex-flow: row wrap;
+      justify-content: space-around;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
 
