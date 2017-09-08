@@ -4,6 +4,6 @@ class Design < ApplicationRecord
 
   belongs_to :user
   has_many :comments
-  has_many :likes
+  has_many :likes, as: :item
   has_many :views
 end

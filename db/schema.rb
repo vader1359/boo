@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170906121326) do
+ActiveRecord::Schema.define(version: 20170908053329) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -42,8 +42,6 @@ ActiveRecord::Schema.define(version: 20170906121326) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "item_type"
-    t.bigint "design_id"
-    t.index ["design_id"], name: "index_likes_on_design_id"
     t.index ["user_id"], name: "index_likes_on_user_id"
   end
 
@@ -78,7 +76,6 @@ ActiveRecord::Schema.define(version: 20170906121326) do
   add_foreign_key "comments", "designs"
   add_foreign_key "comments", "users"
   add_foreign_key "designs", "users"
-  add_foreign_key "likes", "designs"
   add_foreign_key "likes", "users"
   add_foreign_key "views", "designs"
   add_foreign_key "views", "users"
