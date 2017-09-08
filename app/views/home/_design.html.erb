@@ -1,7 +1,7 @@
   <div class="my-card card column is-3">
     <div class="card-image">
       <figure class="image is-3by2">
-        <%= image_tag "#{design}" %>
+        <%= image_tag "#{design.image}" %>
       </figure>
     </div>
     <div class="my-card-content level">
@@ -9,11 +9,11 @@
         <figure class="image">
           <%= image_tag ("http://bulma.io/images/placeholders/96x96.png"), alt: "Image", class: "profile-image" %>
         </figure> 
-        <div class="user-name" >Ian Tran</div>
+        <div class="user-name" ><%=User.all.sample.name %></div>
       </div>
       <div class="my-number">
         <div class="my-count">
-          11
+          <%= design.views.count %>
         </div>
         <div class="my-interaction">
           <%= image_tag "heart.png" %>
